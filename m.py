@@ -26,7 +26,7 @@ def setIPForwarding(toggle):
 		os.system('sysctl -w net.inet.ip.forwarding=0')
 		
 		#other
-		#os.system('echo 1 > /proc/sys/net/ipv4/ip_forward')
+		#os.system('echo 0 > /proc/sys/net/ipv4/ip_forward')
 
 #need to get mac addresses of vitcim and router
 #do this by generating ARP requests, which are made
